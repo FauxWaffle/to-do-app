@@ -18,4 +18,4 @@ def write_todos(todos_arg, filepath=FILEPATH):  # <-- this function will behave 
 
 # if I wanted to have the below code here and not print in main program, need to place under special if statement.
 if __name__ == "__main__":
-
+    print("Hello from functions")
