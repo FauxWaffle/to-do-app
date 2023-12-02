@@ -12,11 +12,10 @@ def get_todos(filepath=FILEPATH):
 
 
 def write_todos(todos_arg, filepath=FILEPATH):  # <-- this function will behave as a procedure.
-    """Write todo items to list in the text file."""
     with open(filepath, 'w') as file_local:
         file_local.writelines(todos_arg)
 
 
 # if I wanted to have the below code here and not print in main program, need to place under special if statement.
 if __name__ == "__main__":
-    print("Hello from functions")
+
