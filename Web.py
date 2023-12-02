@@ -11,7 +11,7 @@ def add_todo():
     stream.session_state["new_todo"] = ""
 
 stream.title("My To-Do App")
-stream.write("This app is to increase your stuff.")
+stream.write("Enter tasks to track below:")
 
 for index, todo in enumerate(todos):
     checkbox = stream.checkbox(todo, key=todo)
